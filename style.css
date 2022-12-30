@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: ease-in-out 0.3s;
+    transition:all ease-in-out 0.3s;
 }
-
+/* header start */
 .header{
     width: 100%;
     height: 100px;
@@ -24,10 +24,65 @@ a{
     font-size: 24px;
     color: black;
     margin: 15px;
+    
 }
 
 a:hover{
     color: white;
-    text-decoration: underline;
-    
+    text-decoration: underline;  
+}
+/* header finished */
+
+.section{
+    width: 100%;
+    height: 300px;
+    background-image: url(../showcase\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+h2{
+    font-size: 46px;
+    margin: 20px;
+    color: white;
+}
+
+.div1{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+p{
+    font-size: 20px;
+  
+
+}
+
+input{
+    padding: 7px;
+    border-radius: 15px;
+}
+button{
+    border-color: brown;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.paths{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
